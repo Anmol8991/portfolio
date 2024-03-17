@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Heebo", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+.eOzJLg {
+  width: 90%;
+}
+.hxLLRt {
+  justify-content: center;
+  background-color: rgb(255, 255, 255) !important;
+}
+.dark .hxLLRt {
+  background-color: rgb(14, 24, 44) !important;
+}
