@@ -41,11 +41,14 @@
     <script type="module" src="/src/main.jsx"></script>
     <script>
       // Remove the second list option in timeline bar
-      const list = document.querySelector(".ExtraControls-sc-cif21b-7.imKVvy");
-
-      if (list && list.children.length > 1) {
-        list.removeChild(list.children[1]);
-      }
+      window.onload = function () {
+        const list = document.querySelector(
+          ".ExtraControls-sc-cif21b-7.imKVvy"
+        );
+        if (list && list.children.length > 1) {
+          list.removeChild(list.children[1]);
+        }
+      };
     </script>
   </body>
 </html>
