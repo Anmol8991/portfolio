@@ -49,7 +49,7 @@ function Homepage() {
                   {user_info.main.description}
                 </p>
 
-                <div className="flex gap-2 mt-6">
+                <div className="flex gap-2 mt-6 flex-wrap">
                   <a
                     href="#workEx"
                     className="px-6 py-3 border border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300"
