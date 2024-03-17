@@ -91,9 +91,9 @@ function Homepage() {
           </div>
         </div>
 
-        {/* <div id="workEx">
+        <div id="workEx">
           <Timeline theme={theme}></Timeline>
-        </div> */}
+        </div>
 
         {/* Projects */}
         <div
