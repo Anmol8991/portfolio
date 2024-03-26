@@ -53,7 +53,7 @@ const info = {
        ● Created an image recognition model with a 97% accuracy rate to track passenger counts and triggering conductor checks in case of discrepancies, bolstering system security.`,
       technologies:
         "https://skillicons.dev/icons?i=nodejs,express,kotlin,mongodb,py&perline=5&theme=",
-      github: "https://devpost.com/software/transitpay",
+      github: "https://github.com/Anmol8991/Transit_Pay",
       link: "https://devpost.com/software/transitpay",
     },
 
