@@ -132,7 +132,7 @@ const info = {
 
   companyDetails: [
     {
-      cardTitle: "Platinum Technologies, New York, USA",
+      cardTitle: "Platinum Capital Partners Inc., New York, USA",
       cardSubtitle: "Technical Consultant Intern",
       cardDetailedText: `- Built a React Native mobile application using Expo to address the issue of food wastage by providing a platform for 7 grocery stores to sell surplus food at discounted rates.
       - Enhanced state management for features like inventory management, user cart and user authentication using Redux, while also spearheading the deployment of the frontend application onto the Expo App Store and contributing to the backend deployment on an AWS EC2 instance.`,
