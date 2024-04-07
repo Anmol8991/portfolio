@@ -1,11 +1,6 @@
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTelegramPlane,
-  FaArrowCircleUp,
-} from "react-icons/fa";
+import {  FaArrowCircleUp,} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
+import {  FaLinkedin } from "react-icons/fa6";
 import Project from "../components/Project";
 import { FaLandmark } from "react-icons/fa";
 import user_info from "../data/user_info.js";
