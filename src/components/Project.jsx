@@ -5,7 +5,7 @@ function Project({ theme, title, description, technologies, link, github }) {
     <div className="hover:bg-gray-50 hover:dark:bg-[#101e38] transition-all duration-300 p-6 md:rounded-xl overflow-auto h-80 whitespace-pre-line">
       <img className="w-60" src={technologies + theme} />
       <h3 className="font-bold text-lg text-gray-700 dark:text-gray-300 mt-4">
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a href={github} target="_blank" rel="noopener noreferrer">
           {title}
         </a>
       </h3>
