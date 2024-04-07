@@ -37,19 +37,19 @@ const info = {
 
   projects: [
     {
-      title: "User Level Thread and Memory Management",
-      description: `● Implemented a user-level thread library, featuring pThread mutexes to access critical sections, and a scheduler with policies including pre-emptive SJF and 4-Level MLFQ.
-       ● Designed user-level page table, translating 32-bit virtual addresses to physical addresses through a 4-page multi-level structure.
-       ● Optimized address translation through direct-mapped Transition Lookaside Buffer (TLB).`,
+      title: "RU Operating System",
+      description: `Built 3 components of a custom operating system:
+      ● Multi-Threading: Created a user-level thread library, akin to the Linux pThread library, for managing worker threads with support for scheduling policies like Pre-emptive Shortest Job First (PSJF) and Multi-Level Feedback Queue (4-level MLFQ).
+      ● Memory Management: Designed a 4-level page table system to translate 32-bit virtual addresses to physical addresses, bolstered by a direct-mapped Translation Lookaside Buffer (TLB) cache to optimize translation overhead.
+      ● File System: Engineered a real user-level file system (RUFS) serving as an interface between the user and a virtual disk, organizing data and indexing information on the virtual disk.`,
       technologies: "https://skillicons.dev/icons?i=git,c,vim,linux,0",
-      github:
-        "https://github.com/Anmol8991/CS518_User_Level_Thread_Library_and_Scheduler",
-      link: "https://github.com/Anmol8991/CS518_User_Level_Thread_Library_and_Scheduler",
+      github: "https://github.com/Anmol8991/RU_Operating_System",
+      // link: "https://github.com/Anmol8991/RU_Operating_System",
     },
 
     {
       title: "Transit Pay",
-      description: `● Developed an autopay system for NJ Transit, employing RFID technology to monitor passenger itineraries and eliminating the need for manual fare collection, estimated to reduce fare evasion by 25%.
+      description: `● Developed an autopay system for NJ Transit, employing NFC radars to monitor passenger itineraries and eliminating the need for manual fare collection, estimated to reduce fare evasion by 25%.
        ● Created an image recognition model with a 97% accuracy rate to track passenger counts and triggering conductor checks in case of discrepancies, bolstering system security.`,
       technologies:
         "https://skillicons.dev/icons?i=nodejs,express,kotlin,mongodb,py&perline=5&theme=",
@@ -58,14 +58,14 @@ const info = {
     },
 
     {
-      title: "Ghosts in a Maze",
-      description: `● Developed intelligent maze-solving agents for complex grid-based (51x51) environments with blocked cells and ghost obstacles, employing diverse navigation strategies to avoid ghosts.
-       ● Executed an optimal A* search with a heuristic derived from a relaxed version of the problem, and a Monte Carlo approach, accessing child node utilities by averaging the results of 100 simulations (1 for success, 0 for failure).
+      title: "Pac-Man Path Expedition",
+      description: `● Developed AI agent to navigate the maze-like environment, akin to classic Pacman game but with a twist, avoiding pursuit by variable ghosts, reaching from one corner to the diagonally opposite another.
+       ● Implemented a Monte Carlo approach, evaluating potential next moves by simulating 100 scenarios per node. Each simulation utilized an A* Search Algorithm for pathfinding through the maze, using a heuristic based on the shortest path through the maze without any ghosts.
        ● Achieved survival rates of 76% for 5 Ghosts, 45% for 25 ghosts and 23% for 45 Ghosts.`,
       technologies:
         "https://skillicons.dev/icons?i=py,git,0,0,0&perline=5&theme=",
-      github: "https://github.com/Anmol8991/ghost-in-the-maze-repo-1",
-      link: "https://github.com/Anmol8991/ghost-in-the-maze-repo-1",
+      github: "https://github.com/Anmol8991/Pac-Man-Path-Expedition",
+      // link: "https://github.com/Anmol8991/Pac-Man-Path-Expedition",
     },
 
     {
@@ -83,7 +83,7 @@ const info = {
         "● Simulated and performed tests on an epoll based concurrent load balancer implemented with various policies, including round-robin and fewest connections. These policies exhibited similar, efficient load distribution, managing up to 100-150 requests/second with a drop rate of around 4%.",
       technologies: "https://skillicons.dev/icons?i=py,git,0,0,0",
       github: "https://github.com/Anmol8991/CS_553_Project",
-      link: "https://github.com/Anmol8991/CS_553_Project",
+      // link: "https://github.com/Anmol8991/CS_553_Project",
     },
     {
       title: "The Circle of Life ",
@@ -91,7 +91,7 @@ const info = {
        ● Implemented a neural network based agent with 2 hidden layers from scratch to predict the optimal utility, with a success ratio of 97% as compared to the 100% success ratio of the utility based agent. `,
       technologies: "https://skillicons.dev/icons?i=py,git,0,0,0",
       github: "https://github.com/Anmol8991/the-circle-of-life-repo-1",
-      link: "https://github.com/Anmol8991/the-circle-of-life-repo-1",
+      // link: "https://github.com/Anmol8991/the-circle-of-life-repo-1",
     },
   ],
 
@@ -117,7 +117,7 @@ const info = {
   },
   dates: [
     {
-      title: "January 2023-Present",
+      title: "January 2023-April 2024",
     },
     {
       title: "May 2023-August 2023",
@@ -134,8 +134,9 @@ const info = {
     {
       cardTitle: "Platinum Capital Partners Inc., New York, USA",
       cardSubtitle: "Technical Consultant Intern",
-      cardDetailedText: `- Built a React Native mobile application using Expo to address the issue of food wastage by providing a platform for 7 grocery stores to sell surplus food at discounted rates.
-      - Enhanced state management for features like inventory management, user cart and user authentication using Redux, while also spearheading the deployment of the frontend application onto the Expo App Store and contributing to the backend deployment on an AWS EC2 instance.`,
+      cardDetailedText: `- Built and deployed a React Native mobile application onto the Expo App store to address the issue of food wastage by providing a platform for 7 grocery stores to sell surplus food at discounted rates.
+      - Identified and resolved state management issues in critical features like inventory management, user cart, and authentication by utilizing Redux. 
+      - Integrated third-party APIs to enable essential app functionalities and devised custom hooks to streamline data retrieval and user authentication, improving workflow efficiency and code maintainability.`,
     },
 
     {
