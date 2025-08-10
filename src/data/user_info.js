@@ -117,7 +117,10 @@ const info = {
   },
   dates: [
     {
-      title: "January 2023-April 2024",
+      title: "June 2024-Present",
+    },
+    {
+      title: "January 2024-April 2024",
     },
     {
       title: "May 2023-August 2023",
@@ -132,11 +135,18 @@ const info = {
 
   companyDetails: [
     {
-      cardTitle: "Platinum Capital Partners Inc., New York, USA",
+      cardTitle: "Cygnus Compliance, Jersey City, USA",
       cardSubtitle: "Technical Consultant Intern",
-      cardDetailedText: `- Built and deployed a React Native mobile application onto the Expo App store to address the issue of food wastage by providing a platform for 7 grocery stores to sell surplus food at discounted rates.
-      - Identified and resolved state management issues in critical features like inventory management, user cart, and authentication by utilizing Redux. 
-      - Integrated third-party APIs to enable essential app functionalities and devised custom hooks to streamline data retrieval and user authentication, improving workflow efficiency and code maintainability.`,
+      cardDetailedText: `- Architected and developed a Docker-based microservices architecture (Django, Spark, FastAPI, Redis, Postgres), migrating from an initial monolithic Django application, reducing setup time by 60% and enabling consistent cloud/on-prem deployments.
+      - Developed a LangGraph-based AI agent with modular tools like RAG, and web search to support case analysts with automated investigation, cutting review time by 35%. 
+      - Built a tenant-aware Text-to-SQL agent enabling analysts to query Delta Lake in plain English, reducing SQL dependency and improving result accuracy by 25% via semantic table matching; eliminated 90% of session failures through heartbeat-managed Spark sessions.
+      - Enabled context-aware retrieval in a RAG-based Research Agent by standardizing ingestion of 1,000+ compliance documents (PDF, DOCX) via modular pipelines for metadata extraction, embedding, and vector store updates`,
+    },
+    {
+      cardTitle: "Platinum Capital Partners Inc., New York, USA",
+      cardSubtitle: "Backend Developer Intern",
+      cardDetailedText: `- Containerized 2 Node.js micro-services: Inventory service for store-side stock entry and Order service for processing customer reservations via a Redis queue to enable asynchronous order handling.
+      - Implemented stateless JWT authentication, RBAC, and centralized error-handling middleware across services; deployed the stack using Docker Compose on a Linux VM with PostgreSQL and Redis, supporting ~600 daily API calls.`,
     },
 
     {
@@ -149,10 +159,9 @@ const info = {
     {
       cardTitle: "Ajeevi Technologies, Noida, India",
       cardSubtitle: "Full Stack Developer",
-      cardDetailedText: `- Engineered dispatch optimization system of on-road units for National Highway Authority of India (NHAI), through real-time geolocation detection of accident-involved vehicles, enhancing the response time for emergency incidents by 75%.
-        - Collaborated with NHAI within a structured 3-week sprint system to conceptualize business requirements, create a strategic roadmap, and integrate new features, while adhering to agile principles.
-        - Managed a real-time database encompassing 5,000+ toll plazas and ambulances, leveraging MongoDB for data storage and retrieval.
-        - Automated SLA reporting and billing processes, resulting in a 40% increase in transparency`,
+      cardDetailedText: `- Reduced data source onboarding time from 6 months to 1 month (83%) by introducing a two-layer pipeline architecture using AWS Lambda that decoupled ingestion from persistence, enabling standardized integration of 50+ financial data sources.
+        - Built a UI-integrated error reporting system with a form-based chatbot and ticketing API to replace email-based issue intake; reduced client resolution time by 26% through automated routing and tracking of reported issues.
+        - Developed an automated Python validation framework with rule-based verification and anomaly detection for UAT; integrated with CI/CD pipelines to identify pre-release issues, eliminating over 40 hours of product team effort per month.`,
     },
     {
       cardTitle: "Aricent, Gurgaon, India",
