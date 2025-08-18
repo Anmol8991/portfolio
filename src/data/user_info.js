@@ -136,7 +136,7 @@ const info = {
   companyDetails: [
     {
       cardTitle: "Cygnus Compliance, Jersey City, USA",
-      cardSubtitle: "Technical Consultant Intern",
+      cardSubtitle: "Software Developer",
       cardDetailedText: `- Architected and developed a Docker-based microservices architecture (Django, Spark, FastAPI, Redis, Postgres), migrating from an initial monolithic Django application, reducing setup time by 60% and enabling consistent cloud/on-prem deployments.
       - Developed a LangGraph-based AI agent with modular tools like RAG, and web search to support case analysts with automated investigation, cutting review time by 35%. 
       - Built a tenant-aware Text-to-SQL agent enabling analysts to query Delta Lake in plain English, reducing SQL dependency and improving result accuracy by 25% via semantic table matching; eliminated 90% of session failures through heartbeat-managed Spark sessions.
