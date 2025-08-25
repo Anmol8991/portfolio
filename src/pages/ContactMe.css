@@ -1,0 +1,213 @@
+.contact-hero {
+  padding: 2rem 1.5rem 2.5rem;
+  background-color: #141414;
+  color: #e6e6e6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-avatar-mobile {
+  border-radius: 50%;
+  width: 5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.contact-avatar-desktop {
+  display: none;
+}
+
+.contact-info {
+  max-width: 100%;
+}
+
+.contact-role {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  margin: 0;
+  font-weight: 500;
+}
+
+.contact-name {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0.75rem 0;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.contact-description {
+  margin: 1.5rem 0;
+  color: #d1d5db;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.75;
+  max-width: 87%;
+}
+
+.contact-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  color: #9ca3af;
+  font-size: 1rem;
+}
+
+.location-icon {
+  color: #d62b2b;
+  font-size: 1.1rem;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid;
+}
+
+.contact-btn.primary {
+  background-color: #0077b5;
+  color: #ffffff;
+  border-color: #0077b5;
+}
+
+.contact-btn.primary:hover {
+  background-color: #005983;
+  transform: translateY(-2px);
+}
+
+.contact-btn.secondary {
+  background-color: transparent;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+
+.contact-btn.secondary:hover {
+  background-color: #0077b5;
+  border-color: #0077b5;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  font-size: 1rem;
+}
+
+.contact-message {
+  margin-top: 2rem;
+  max-width: 87%;
+}
+
+.contact-message p {
+  color: #9ca3af;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contact-right {
+  flex-shrink: 0;
+  display: none;
+}
+
+/* Responsive Design */
+@media (min-width: 1024px) {
+  .contact-hero {
+    padding: 2rem 6rem 2.5rem;
+  }
+  
+  .contact-avatar-mobile {
+    display: none;
+  }
+  
+  .contact-avatar-desktop {
+    display: block;
+    border-radius: 10%;
+    width: 480px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contact-right {
+    display: block;
+  }
+  
+  .contact-name {
+    font-size: 3.5rem;
+  }
+  
+  .contact-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-hero {
+    padding: 2rem 6rem 2.5rem;
+  }
+  
+  .contact-name {
+    font-size: 3.25rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% { 
+    opacity: 0; 
+    transform: translateY(20px);
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
+
+.contact-hero {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.contact-btn {
+  animation: fadeIn 0.8s ease-in-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+.contact-btn:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.contact-btn:nth-child(3) {
+  animation-delay: 0.4s;
+}

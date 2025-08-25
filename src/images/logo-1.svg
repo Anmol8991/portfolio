@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200px" height="200px">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+  </style>
+</defs>
+<text x="60" y="140" font-family="Bebas Neue, Impact, sans-serif" font-size="120" fill="#E50E21" font-weight="bold" letter-spacing="8px">ANMOL ARORA</text>
+</svg>

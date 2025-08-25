@@ -1,0 +1,76 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "company": "Cygnus Compliance, Jersey City, USA",
+      "position": "Software Developer",
+      "duration": "June 2024 - Present",
+      "type": "Full-time",
+      "description": "Led zero to one development of a domain-specific AI-powered compliance suite to automate alert summarization and accelerate alert reviews using LLM-based workflows, deployed to 3 enterprise clients",
+      "achievements": [
+        "Architected and developed a Docker-based microservices architecture (Django, Spark, FastAPI, Redis, Postgres), migrating from an initial monolithic Django application, reducing setup time by 60% and enabling consistent cloud/on-prem deployments",
+        "Developed a LangGraph-based AI agent with modular tools like RAG, and web search to support case analysts with automated investigation, cutting review time by 35%",
+        "Built a tenant-aware Text-to-SQL agent enabling analysts to query Delta Lake in plain English, reducing SQL dependency and improving result accuracy by 25% via semantic table matching; eliminated 90% of session failures through heartbeat-managed Spark sessions",
+        "Enabled context-aware retrieval in a RAG-based Research Agent by standardizing ingestion of 1,000+ compliance documents (PDF, DOCX) via modular pipelines for metadata extraction, embedding, and vector store updates"
+      ],
+      "technologies": ["Django","FastAPI", "Redis", "Postgres", "Docker", "LangGraph", "Delta Lake", "Spark"],
+      "logo": "./assets/images/companies/cygnus.png"
+    },
+    {
+      "id": 2,
+      "company": "Platinum Capital Partners Inc., New York, USA",
+      "position": "Backend Developer Intern",
+      "duration": "January 2024 - April 2024",
+      "type": "Internship",
+      "description": "Developed the backend features for a surplus-food marketplace, including APIs for inventory listing and customer reservations across 7 grocery stores",
+      "achievements": [
+        "Containerized 2 Node.js micro-services: Inventory service for store-side stock entry and Order service for processing customer reservations via a Redis queue to enable asynchronous order handling",
+        "Implemented stateless JWT authentication, RBAC, and centralized error-handling middleware across services; deployed the stack using Docker Compose on a Linux VM with PostgreSQL and Redis, supporting ~600 daily API calls"
+      ],
+      "technologies": ["Node.js", "Docker", "PostgreSQL", "Redis", "JWT", "RBAC", "Linux"],
+      "logo": "./assets/images/companies/platinum.png"
+    },
+    {
+      "id": 3,
+      "company": "vDOIT, Gurgaon, India",
+      "position": "Full Stack Developer Intern",
+      "duration": "May 2023 - August 2023",
+      "type": "Internship",
+      "description": "Improved integration testing and frontend performance by mocking service dependencies and optimizing data flow in a full stack environment",
+      "achievements": [
+        "Configured a mock server using AWS Lambda and API Gateway to simulate dependent service responses, enabling isolated backend testing and reducing product delivery time by 65% while supporting 10,000+ daily requests",
+        "Designed responsive React components and improved data-fetching efficiency using Redux and React Query, reducing load time by 20%"
+      ],
+      "technologies": ["AWS Lambda", "API Gateway", "Python", "React", "Redux", "React Query"],
+      "logo": "./assets/images/companies/vdoit.png"
+    },
+    {
+      "id": 4,
+      "company": "Ajeevi Technologies, Noida, India",
+      "position": "Full Stack Developer",
+      "duration": "September 2020 - July 2022",
+      "type": "Full-time",
+      "description": "Contributed to migrating a legacy financial data platform and building an automated UAT validation framework integrated with CI/CD pipelines",
+      "achievements": [
+        "Reduced data source onboarding time from 6 months to 1 month (83%) by introducing a two-layer pipeline architecture using AWS Lambda that decoupled ingestion from persistence, enabling standardized integration of 50+ financial data sources",
+        "Built a UI-integrated error reporting system with a form-based chatbot and ticketing API to replace email-based issue intake; reduced client resolution time by 26% through automated routing and tracking of reported issues",
+        "Developed an automated Python validation framework with rule-based verification and anomaly detection for UAT; integrated with CI/CD pipelines to identify pre-release issues, eliminating over 40 hours of product team effort per month"
+      ],
+      "technologies": ["AWS Lambda", "Python", "CI/CD", "React", "Node.js"],
+      "logo": "./assets/images/companies/ajeevi.png"
+    },
+    {
+      "id": 5,
+      "company": "Aricent, Gurgaon, India",
+      "position": "Software Intern",
+      "duration": "May 2019 - August 2019",
+      "type": "Internship",
+      "description": "Revamped an Automated Data Preprocessing Tool for cleaning and visualization using REST API to improve the efficiency of employees in data extraction.",
+      "achievements": [
+        "Incorporated different Feature Selection Techniques and Dimensional Reduction algorithms to implement the tool and improved data processing accuracy by 40%."
+      ],
+      "technologies": ["Python", "REST API"],
+      "logo": "./assets/images/companies/aricent.png"
+    }
+  ]
+} 

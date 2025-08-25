@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "RU Operating System",
+      "description": "Built 3 components of a custom operating system:\n● Multi-Threading: Created a user-level thread library, akin to the Linux pThread library, for managing worker threads with support for scheduling policies like Pre-emptive Shortest Job First (PSJF) and Multi-Level Feedback Queue (4-level MLFQ).\n● Memory Management: Designed a 4-level page table system to translate 32-bit virtual addresses to physical addresses, bolstered by a direct-mapped Translation Lookaside Buffer (TLB) cache to optimize translation overhead.\n● File System: Engineered a real user-level file system (RUFS) serving as an interface between the user and a virtual disk, organizing data and indexing information on the virtual disk.",
+      "technologies": ["C", "Linux", "Git", "Vim"],
+      "github": "https://github.com/Anmol8991/RU_Operating_System",
+      "image": "./assets/images/projects/ru_os.png",
+      "featured": true,
+      "category": "Systems Programming"
+    },
+    {
+      "id": 2,
+      "title": "Transit Pay",
+      "description": "● Developed an autopay system for NJ Transit, employing NFC radars to monitor passenger itineraries and eliminating the need for manual fare collection, estimated to reduce fare evasion by 25%.\n● Created an image recognition model with a 97% accuracy rate to track passenger counts and triggering conductor checks in case of discrepancies, bolstering system security.",
+      "technologies": ["Node.js", "Express", "Kotlin", "MongoDB", "Python"],
+      "github": "https://github.com/Anmol8991/Transit_Pay",
+      "link": "https://devpost.com/software/transitpay",
+      "image": "./assets/images/projects/transit_pay.jpg",
+      "featured": true,
+      "category": "Mobile Development"
+    },
+    {
+      "id": 3,
+      "title": "Pac-Man Path Expedition",
+      "description": "● Developed AI agent to navigate the maze-like environment, akin to classic Pacman game but with a twist, avoiding pursuit by variable ghosts, reaching from one corner to the diagonally opposite another.\n● Implemented a Monte Carlo approach, evaluating potential next moves by simulating 100 scenarios per node. Each simulation utilized an A* Search Algorithm for pathfinding through the maze, using a heuristic based on the shortest path through the maze without any ghosts.\n● Achieved survival rates of 76% for 5 Ghosts, 45% for 25 ghosts and 23% for 45 Ghosts.",
+      "technologies": ["Python", "AI/ML", "Git"],
+      "github": "https://github.com/Anmol8991/Pac-Man-Path-Expedition",
+      "image": "./assets/images/projects/pac_man.png",
+      "featured": true,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "id": 4,
+      "title": "Workplace Wise",
+      "description": "● Architected and deployed an employee management tool featuring attendance tracking, leave request processing, and secure JWT authentication. Managed 50 REST API endpoints for optimal functionality.",
+      "technologies": ["React", "Bootstrap", "Express", "Node.js", "MySQL"],
+      "github": "https://github.com/Anmol8991/EMT-react",
+      "link": "https://darling-raindrop-2ce390.netlify.app/",
+      "image": "./assets/images/projects/hrem_report.png",
+      "featured": false,
+      "category": "Web Development"
+    },
+    {
+      "id": 5,
+      "title": "Load Balancer Simulation",
+      "description": "● Simulated and performed tests on an epoll based concurrent load balancer implemented with various policies, including round-robin and fewest connections. These policies exhibited similar, efficient load distribution, managing up to 100-150 requests/second with a drop rate of around 4%.",
+      "technologies": ["Python", "Git"],
+      "github": "https://github.com/Anmol8991/CS_553_Project",
+      "image": "./assets/images/projects/load_balancer.png",
+      "featured": false,
+      "category": "Systems Programming"
+    },
+    {
+      "id": 6,
+      "title": "The Circle of Life",
+      "description": "● Devised intelligent agents for a circular network with 50 nodes, capturing prey while evading predators; optimized agent’s decision-making by calculating optimal utilities for each state using dynamic programming method.\n● Implemented a neural network based agent with 2 hidden layers from scratch to predict the optimal utility, with a success ratio of 97% as compared to the 100% success ratio of the utility based agent.",
+      "technologies": ["Python", "AI/ML", "Git"],
+      "github": "https://github.com/Anmol8991/the-circle-of-life-repo-1",
+      "image": "./assets/images/projects/circle_of_life.jpg",
+      "featured": false,
+      "category": "Artificial Intelligence"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "date": "Dec 2024",
+      "link": "https://learn.microsoft.com/en-us/users/anmolarora-2889/credentials/ef9262144e054ede?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+    }
+  ]
+} 

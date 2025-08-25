@@ -1,0 +1,22 @@
+{
+  "languages": {
+    "description": "Proficient in Python, JavaScript, TypeScript, C/C++, and Java.",
+    "items": ["Python", "JavaScript", "TypeScript", "C/C++", "Java"]
+  },
+  "backend": {
+    "description": "Experienced with Django, Node.js, and Express.js for backend development.",
+    "items": ["Django", "Node.js", "Express.js"]
+  },
+  "frontend": {
+    "description": "Skilled in React, HTML5, and Tailwind CSS for frontend development.",
+    "items": ["React", "HTML5", "Tailwind CSS"]
+  },
+  "databases": {
+    "description": "Worked with PostgreSQL, MSSQL, and Redis databases.",
+    "items": ["PostgreSQL", "MSSQL", "Redis"]
+  },
+  "devops_cloud": {
+    "description": "DevOps and Cloud experience with Docker, Azure, AWS, Terraform, Ansible, Jenkins, and Git.",
+    "items": ["Docker", "Azure", "AWS", "Terraform", "Ansible", "Jenkins", "Git"]
+  }
+} 

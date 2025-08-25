@@ -1,0 +1,26 @@
+{
+  "recruiter": {
+    "headline": "Software Engineer",
+    "profileSummary": "Software Engineer skilled in full-stack development and cloud systems. Experienced in building scalable, secure, and maintainable applications with modern frameworks and databases. Curious by nature, I go beneath abstractions to design resilient architectures and write high-quality code that lasts.",
+    "backgroundType": "video",
+    "backgroundVideo": "/intro.MP4",
+    "backgroundGif": "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif",
+    "backgroundImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+  },
+  "developer": {
+    "headline": "Full Stack Developer",
+    "profileSummary": "Full-stack engineer curious about what happens beyond abstractions I’ve built backend services and containerized architectures with a focus on clean, scalable code that others enjoy working with while continually learning new tools and patterns",
+    "backgroundType": "video",
+    "backgroundVideo": "/intro.MP4",
+    "backgroundGif": "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif",
+    "backgroundImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+  },
+  "stalker": {
+    "headline": "Curious Explorer",
+    "profileSummary": "Outside of coding, I chase adrenaline. From cliff jumps to ocean dives and bungees, I love pushing limits. Curiosity drives me in both code and life, whether on a cricket field, a pickleball court, horse riding, or soon skydiving. Why stop at ground level when you can see the world from above.",
+    "backgroundType": "video",
+    "backgroundVideo": "/assets/images/stalker.mp4",
+    "backgroundGif": "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif",
+    "backgroundImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+  }
+}

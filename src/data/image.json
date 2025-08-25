@@ -1,0 +1,49 @@
+{
+  "profilePage": {
+    "profileBanner": {
+      "backgroundImage": "https://picsum.photos/1200/400"
+    },
+    "details": {
+      "Work Permit": "/assets/images/details/work-permit.jpg",
+      "Skills": "/assets/images/details/skills.png",
+      "Experience": "/assets/images/details/experience.jpg",
+      "Certifications": "/assets/images/details/certifications.jpg",
+      "Recommendations": "/assets/images/details/recommendations.jpg",
+      "Projects": "/assets/images/details/projects.jpg",
+      "Contact Me": "/assets/images/details/contact-me.jpg",
+      "Blogs": "/assets/images/details/blogs.jpg",
+      "Reading": "/assets/images/details/reading.jpg",
+      "Music": "/assets/images/details/music.png"
+    }
+  },
+  "navbar": {
+    "logo": "/assets/images/logo.png",
+    "profileDefault": "/assets/images/blue.png"
+  },
+  "browse": {
+    "profiles": {
+      "recruiter": {
+        "image": "/assets/images/profile/blue.png"
+      },
+      "developer": {
+        "image": "/assets/images/profile/grey.png"
+      },
+      "stalker": {
+        "image": "/assets/images/profile/red.png"
+      }
+    }
+  },
+  "music": {
+    "albums": {
+      "maroon5": "/assets/images/music/maroon-5-v.png",
+      "lanaDelRey": "/assets/images/music/born-to-die.png",
+      "gunsNRoses": "/assets/images/music/guns-n-roses.webp",
+      "mileyCyrus": "/assets/images/music/endless-summer.png",
+      "maneskin": "/assets/images/music/beggin-maneskin.jpg",
+      "twentyOnePilots": "/assets/images/music/twenty-one-pilots.jpg"
+    }
+  },
+  "netflixTitle": {
+    "logo": "/assets/images/logo.png"
+  }
+}

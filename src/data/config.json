@@ -1,0 +1,56 @@
+{
+  "main": {
+    "name": "Anmol Arora",
+    "description": "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+    "role": "Software Engineer",
+    "photo": "./assets/images/profile/Anmol_photo1.jpeg",
+    "email": "anmol.arora8991@gmail.com",
+    "phone": "+1 (732) 532-7248",
+    "location": "Jersey City, New Jersey, USA",
+    "resumeLink": { "url": "/Anmol-Arora-resume.pdf" }
+  },
+  "socials": {
+    "github": "https://github.com/Anmol8991",
+    "linkedin": "https://www.linkedin.com/in/anmol-arora-572945188/"
+  },
+  "education": [
+    {
+      "school": "Rutgers University, New Brunswick, New Jersey, USA",
+      "degree": "Master of Science in Computer Science",
+      "year": "2022 - 2024",
+      "image": "./assets/images/rutgers.png",
+      "coursework": [
+        "Natural Language Processing",
+        "Machine Learning-I",
+        "Machine Learning-II",
+        "Intro to AI",
+        "Design of Internet Services"
+      ]
+    },
+    {
+      "school": "Maharaja Agrasen Institute of Technology, GGSIPU, Delhi, India",
+      "degree": "Bachelor of Technology in Information Technology",
+      "year": "2016 - 2020",
+      "image": "./assets/images/mail_logo.jpeg",
+      "coursework": [
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "DBMS"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Let's Get in Touch: ",
+    "description": "Feel free to reach out via email or connect with me on LinkedIn."
+  },
+  "workPermit": {
+    "visaStatus": "F1 (STEM OPT Extention 1st year)",
+    "expiryDate": "June 2027",
+    "summary": "I am currently on an F1 visa (STEM OPT Extention), which allows me to work in the US for up to 3 years after graduation (i.e. till June 2027)",
+    "additionalInfo": "Eligible for H1B sponsorship."
+  },
+  "footer": "© 2025 Anmol Arora. All Rights Reserved",
+  "profileBanner": {}
+} 

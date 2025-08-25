@@ -1,0 +1,46 @@
+{
+  "quote": {
+    "text": "Music is the soundtrack of our lives.",
+    "emoji": "🎵"
+  },
+  "genres": [
+    "Pop Rock",
+    "Alternative Rock",
+    "Indie Pop",
+    "Pop",
+    "Rock",
+    "Alternative"
+  ],
+  "albums": [
+    {
+      "title": "V",
+      "artist": "Maroon 5",
+      "imageKey": "maroon5"
+    },
+    {
+      "title": "Born to Die",
+      "artist": "Lana Del Rey",
+      "imageKey": "lanaDelRey"
+    },
+    {
+      "title": "Appetite for Destruction",
+      "artist": "Guns N' Roses",
+      "imageKey": "gunsNRoses"
+    },
+    {
+      "title": "Endless Summer Vacation",
+      "artist": "Miley Cyrus",
+      "imageKey": "mileyCyrus"
+    },
+    {
+      "title": "Beggin'",
+      "artist": "Måneskin",
+      "imageKey": "maneskin"
+    },
+    {
+      "title": "Blurryface",
+      "artist": "Twenty One Pilots",
+      "imageKey": "twentyOnePilots"
+    }
+  ]
+}

@@ -1,31 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  font-family: "Heebo", sans-serif;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+body {
+  margin: 0;
+  font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
+  background-color: #141414;
 }
-/* .eOzJLg {
-  width: 90%;
-} */
-.hxLLRt {
-  justify-content: center;
-  background-color: rgb(255, 255, 255) !important;
+
+/* Hide blinking cursor */
+* {
+  caret-color: transparent;
 }
-.dark .hxLLRt {
-  background-color: rgb(14, 24, 44) !important;
-}
-/* Deployed site classes */
-.gjuTGZ {
-  justify-content: center;
-  background-color: rgb(255, 255, 255) !important;
-}
-.dark .gjuTGZ {
-  background-color: rgb(14, 24, 44) !important;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
